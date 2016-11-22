@@ -1,8 +1,64 @@
 body {
     display: flex;
     flex-direction: column;
+    text-align: center;
+    align-items: center;
 }
-header {
+
+.home {
+    border: 1px black solid;
+}
+
+.header-bild {
+    border: 1px black solid;
+    width: 1300px;
+    margin-top: 20px;
+}
+
+.menu {
+    width: 1300px;
+    background-color: white;
+    border: 1px black solid;
+    padding-top: 5px;
+    padding-bottom: 5px;   
+}
+
+.main{
+    display: flex;
+    flex-direction: row;
+}
+
+.blogg {
+    display: flex;
+    flex-direction: column;
+}
+
+.blogg-head {
 
 }
 
+.blogg-article {
+
+}
+
+aside {
+    display: flex;
+    flex-direction: column;
+}
+
+.picture {
+
+}
+
+a {
+    padding-left: 5px;
+    padding-right: 5px; 
+}
+
+.blogg {
+    border: 1px black solid;
+    background-color: lightgrey;
+}
+.blogg-head {
+    border: 1px black solid;
+}
