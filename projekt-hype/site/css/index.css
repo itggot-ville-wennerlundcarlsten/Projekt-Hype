@@ -32,17 +32,18 @@ body {
     flex-direction: row;
     width: 1300px;
     margin: 10px;
-    flex-grow: 4;
 }
 
 .blogg {
     display: flex;
     flex-direction: column;
     height: 90%;
+    flex-grow: 3;
 }
 
 .blogg-head {
     padding-top: 10px;
+    flex-grow: 3;
     
 }
 
