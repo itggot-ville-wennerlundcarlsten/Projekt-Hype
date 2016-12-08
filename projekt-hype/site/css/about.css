@@ -41,15 +41,21 @@ body {
   background-image: url("../image/white.png");
 }
 .about-head{
+        font-family: sans-serif;
+
 
 }
 .about-article{
+    font-family: sans-serif;
+    padding: 20px;
 
 }
 
 .table{
+  align-items: left;
   text-align: left;
-  border: 1px black solid;
+  align-content: left;
+  padding: 20px;
 }
 
 .table-head{
@@ -77,10 +83,8 @@ body {
 
 .menu {
     width: 1300px;
-    background-color: white;
-    border: 1px black solid;
     padding-top: 5px;
-    padding-bottom: 5px;
+    padding-bottom: 5px;   
     margin: 10px;
     flex-grow: 1;
 }
@@ -111,4 +115,19 @@ a {
 .picture {
     border: 1px black solid;
     margin: 5px;
+}
+
+.links{
+    font-family: sans-serif;
+    color: black;
+    text-decoration: none;
+    margin: 20px;
+    font-size: 20px;
+}
+.links:hover {
+    cursor:url("../image/podknapp.png"), auto;
+
+}
+.links:active{
+    color: grey;
 }
