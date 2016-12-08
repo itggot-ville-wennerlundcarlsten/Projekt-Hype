@@ -75,7 +75,6 @@ body {
 }
 
 .header-bild {
-    border: 1px black solid;
     width: 1300px;
     margin-top: 20px;
     flex-grow: 2;
@@ -101,7 +100,6 @@ aside {
     display: flex;
     flex-direction: column;
     flex-grow: 1;
-    border: 1px black solid;
     margin-left: 10px;
 }
 
@@ -113,8 +111,6 @@ a {
 
 
 .picture {
-    border: 1px black solid;
-    margin: 5px;
 }
 
 .links{
