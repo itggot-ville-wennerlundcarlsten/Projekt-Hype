@@ -4,6 +4,7 @@ body {
     text-align: center;
     align-items: center;
     height: 800px;
+    background-image: url("../image/nature-forest-trees-fog2.jpg");
 }
 
 .home {
@@ -44,7 +45,7 @@ body {
 .blogg-head {
     padding-top: 10px;
     flex-grow: 3;
-    
+    margin: 10px;
 }
 
 .blogg-article {
@@ -58,13 +59,9 @@ aside {
     display: flex;
     flex-direction: column;
     flex-grow: 1;
-    border: 1px black solid;
     margin-left: 10px;
 }
 
-.picture {
-
-}
 
 a {
     padding-left: 5px;
@@ -73,15 +70,11 @@ a {
 
 .blogg {
     border: 1px black solid;
-    background-color: lightgrey;
     flex-grow: 3;
-}
-.blogg-head {
-    border: 1px black solid;
-    margin: 10px;
+    background-image: url("../image/white.png");
 }
 
+
 .picture {
-    border: 1px black solid;
     margin: 5px;
 }
