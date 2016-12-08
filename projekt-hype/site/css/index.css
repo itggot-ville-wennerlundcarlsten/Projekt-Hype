@@ -39,7 +39,6 @@ body {
     height: 90%;
     flex-grow: 3;
     border: 1px black solid;
-    flex-grow: 3;
     background-image: url("../image/white.png");
 }
 
@@ -50,10 +49,13 @@ body {
 }
 
 .blogg-article {
-    margin: 10px;
-    border: 1px black solid;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 26px;
+    margin-right: 26px;
     padding: 5px;
     font-family: sans-serif;
+     background-image: url("../image/white1.png");
 }
 
 aside {
@@ -88,4 +90,8 @@ a {
 }
 .links:active{
     color: grey;
+}
+p {
+    text-align: left;
+    margin-left: 10px;
 }
