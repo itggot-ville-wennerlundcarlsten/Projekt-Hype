@@ -28,13 +28,6 @@ body {
     flex-grow: 1;
 }
 
-.main{
-    display: flex;
-    flex-direction: row;
-    width: 1300px;
-    margin: 10px;
-}
-
 
 aside {
     display: flex;
@@ -53,10 +46,72 @@ a {
   display: flex;
   flex-direction: column;
   height: 90%;
+  width: 1300px;
+  margin: 10px;
 }
 
-.picture {
+.icons{
+  display: flex;
+  flex-direction: row;
+  width: 1300px;
+}
+
+.facebook {
     margin: 5px;
     width: 100px;
     height: auto;
+    flex-grow: 1;
+}
+.twitter {
+    margin: 5px;
+    width: 100px;
+    height: auto;
+    flex-grow: 1;
+}
+
+.youtube {
+    margin: 5px;
+    width: 100px;
+    height: auto;
+    flex-grow: 1;
+}
+
+.instagram {
+    margin: 5px;
+    width: 100px;
+    height: auto;
+    flex-grow: 1;
+}
+
+.info{
+  display: flex;
+  flex-direction: row;
+  width: 1300px;
+}
+
+.facebook-info {
+    margin: 5px;
+    width: 100px;
+    height: auto;
+    flex-grow: 1;
+}
+.twitter-info {
+    margin: 5px;
+    width: 100px;
+    height: auto;
+    flex-grow: 1;
+}
+
+.youtube-info {
+    margin: 5px;
+    width: 100px;
+    height: auto;
+    flex-grow: 1;
+}
+
+.instagram-info {
+    margin: 5px;
+    width: 100px;
+    height: auto;
+    flex-grow: 1;
 }
