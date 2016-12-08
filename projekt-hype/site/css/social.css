@@ -12,7 +12,6 @@ body {
 }
 
 .header-bild {
-    border: 1px black solid;
     width: 1300px;
     margin-top: 20px;
     flex-grow: 2;
