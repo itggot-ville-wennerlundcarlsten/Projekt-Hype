@@ -81,7 +81,11 @@ a {
     padding: 20px;
    
 }
+
 .links:hover {
-    background-image: url("../image/podknapp.png");
-    background-repeat: no-repeat;
+    cursor:url("../image/podknapp.png"), auto;
+
+}
+.links:active{
+    color: grey;
 }
