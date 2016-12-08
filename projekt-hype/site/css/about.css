@@ -47,12 +47,15 @@ body {
 }
 .about-article{
     font-family: sans-serif;
+    padding: 20px;
 
 }
 
 .table{
+  align-items: left;
   text-align: left;
-  border: 1px black solid;
+  align-content: left;
+  padding: 20px;
 }
 
 .table-head{
