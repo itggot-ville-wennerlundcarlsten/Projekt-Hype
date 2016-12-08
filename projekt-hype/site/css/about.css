@@ -1,9 +1,44 @@
-.main{
+body {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    height: 800px;
+    background-image: url("../image/nature-forest-trees-fog2.jpg");
+}
+.home {
+    border: 1px black solid;
+}
+
+.header-bild {
+    width: 1300px;
+    margin-top: 20px;
+    flex-grow: 2;
 
 }
 
-.about{
+.menu {
+    width: 1300px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 10px;
+    flex-grow: 1;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    width: 1300px;
+    margin: 10px;
+}
 
+.about{
+  display: flex;
+  flex-direction: column;
+  height: 90%;
+  flex-grow: 3;
+  border: 1px black solid;
+  flex-grow: 3;
+  background-image: url("../image/white.png");
 }
 .about-head{
 
